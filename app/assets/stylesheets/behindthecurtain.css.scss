@@ -4,7 +4,7 @@ body {
 }
 
 body, button, input {
-  font: 200 13px/1.3 'Helvetica Neue', Helvetica, sans-serif;
+  font: 200 20px/1.3 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 html, body, .toolbar {
@@ -103,5 +103,26 @@ input {
 
   h2 {
     margin-top: 0;
+  }
+}
+
+.viewpanel {
+  background-image: url('http://downtownmusicstudios.com/public/images/v4-8-Live-Room-5I2A4116.jpg');
+  background-size: cover;
+  border: 5px solid black;
+  height: 700px;
+  overflow: auto;
+  width: 900px;
+}
+
+.artistdetail {
+  img {
+    width: 500px;
+  }
+}
+
+.producerdetail {
+  li {
+    list-style-type: none;
   }
 }
