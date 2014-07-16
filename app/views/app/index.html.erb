@@ -1,0 +1,31 @@
+<div class="toolbar" id="toolbar">
+  <h1>The Rabbit Hole</h1>
+
+  <h2>Find Music</h2>
+  <div class="search" id="search">
+    <form>
+      <input type="search" name="search" placeholder="Enter the name of a song...">
+      <button>Search</button>
+    </form>
+
+    <label class="producer-results" id="producer-results">
+      Producers:
+      <ul name="producer-results"></ul>
+    </label>
+
+    <label class="artist-results" id="artist-results">
+      Artists:
+      <ul name="artist-results"></ul>
+    </label>
+  </div>
+
+</div>
+<div class="main" id="main">
+  <noscript>This application requires JavaScript.</noscript>
+</div>
+
+<%= requirejs_include_tag %>
+<script>
+  require.config({urlArgs: 'bust='+ Date.now()});
+  require(['behind_the_curtain/main']);
+</script>

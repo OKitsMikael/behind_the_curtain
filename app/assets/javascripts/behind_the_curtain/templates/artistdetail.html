@@ -1,0 +1,18 @@
+<a href="#home">Home</a>
+<h1><%= model.get('name') %></h1>
+<a href="<%= model.getURL() %>">Open in Spotify</a>
+
+<% if(model.hasImage()) { %>
+  <img src="<%= model.getImage() %>" alt=""/>
+<% } %>
+
+<h2>Related Artists</h2>
+
+<ul>
+
+  <% _.each(model.artists, function(artist) { %>
+    <li><%= artist.name %></li>
+  <% }) %>
+
+</ul>
+
