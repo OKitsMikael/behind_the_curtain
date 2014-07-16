@@ -16,7 +16,7 @@ define(function(require) {
       // make an ajax request to get related artists and save to model
       if(this.model.hasID()) {
         // console.log('has Id');
-        this.model.getRelated();
+        // this.model.getRelated();
       }
       var rendered = this.template({model: this.model});
       return this.$el.html(rendered);
