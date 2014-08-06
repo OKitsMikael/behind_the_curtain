@@ -14,6 +14,7 @@
 * Ruby on Rails 4.1.1
 * Spotify Web API
 * Freebase Search API
+* JavaScript
 * Dynamic data modeling with Backbone.js
 * CSS styling using [bootstrap](http://getbootstrap.com/)
 
