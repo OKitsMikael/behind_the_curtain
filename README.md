@@ -6,7 +6,7 @@
 
 **SourceIt** is an entertainment app designed to provied an alternative way to find new music based on a song you already like. It was developed as a sample Rails project for the April 2014 Web Development Immersive course at General Assembly. It was developed over a one week sprint to model the agile software development process.
 
-[Visit SourceIt](http://mighty-chamber-6763.herokuapp.com/)
+[Visit SourceIt](http://frozen-wave-5291.herokuapp.com/)
 
 ### Technologies Used
 
